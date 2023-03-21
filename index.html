@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computadoras</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link para el archivo CSS de Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Tienda de Computadoras</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#productos">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#nosotros">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contacto">Nuestros Servicios</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#contacto">Catálago de Clientes</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#contacto">Contáctenos</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="container">
+		<section id="productos">
+			<h2>Productos</h2>
+			<div class="row">
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://dpq25p1ucac70.cloudfront.net/seller-place-files/mrkl-files/1270/ELECTROHOGAR/PC-COMPLETA-GENERAL_004236299581_2.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Computadora de escritorio</h5>
+							<p class="card-text">Descripción del producto:
+                                Computadora para jugar Fortnite y Word 35 FPS
+                            </p>
+							<a src="formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Laptop</h5>
+							<p class="card-text">Descripción del producto</p>
+							<a href="/formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://home.ripley.com.pe/Attachment/WOP_5/2004275190556/2004275190556-3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Tablet</h5>
+							<p class="card-text">Descripción del producto</p>
+							<a href="formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+                <div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://avminversiones.com/wp-content/uploads/2021/06/QVRMPKBLYCGGQRV1604427057B.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Memoria Ram DDR4</h5>
+							<p class="card-text">Descripción del producto</p>
+							<a href="formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+                <div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://images.samsung.com/is/image/samsung/p6pim/pe/lf27t350fhlxpe/gallery/pe-t35f-lf27t350fhlxpe-348397999?$650_519_PNG$" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Monitor</h5>
+							<p class="card-text">Descripción del producto</p>
+							<a href="formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+                <div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="https://snpi.dell.com/snp/images/products/large/dell_wm126_wireless_optical_mouse_blk_3_s.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Mouse</h5>
+							<p class="card-text">Descripción del producto</p>
+							<a href="formulario.html" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form action="submit-form.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
+
+
